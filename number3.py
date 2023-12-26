@@ -38,6 +38,6 @@ print(desc)
 
 #telegram
 
-bot = telegram.Bot(token='123456789:AABBCCDDefgh_mnaviwuue_DP865Y')
+bot = telegram.Bot(token='token')
 
 bot.send_message(chat_id='@here_some_channel_to_post', text=desc+'\n'+link)
